@@ -57,7 +57,7 @@ nav{
     top: 0;
     position: fixed;
     height: 70px;
-    width: 1750px;
+    width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,12 +80,12 @@ nav ul li a{
 margin: 30px;
 font-family: monospace;
 color: rgb(197, 113, 113);
-font-size: 20px;
+font-size: 100%;
 font-weight: 700;
 }
 
 nav a img{
-height: 40px;
+height: 30px;
 }
 
 .logo{
@@ -112,7 +112,7 @@ height: 40px;
     font-family: calibri;
     font-weight: lighter;
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 50px;
     
 }
 .conteudo-texto p:nth-child(2)
@@ -123,14 +123,14 @@ height: 40px;
     font-weight: bold;
     letter-spacing: 0px;
     color: whitesmoke;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .conteudo-texto p:nth-child(3)
 {
     font-family: calibri;
     color:whitesmoke;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
 }
 
@@ -142,19 +142,21 @@ height: 40px;
 
 .conteudo-texto
 {
+    
+    
     position: absolute;
-    left: 10%;
-    top: -23%;
+    left: 6.5%;
+    top: -26%;
    transform: translate(2.5%, 155%); 
 }
 
 .conteudo-texto button{
     width: 400px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     font-family: calibri;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     outline: none;
     margin: 0px 10px;
 
@@ -190,7 +192,7 @@ button:active{
  .conteudo-sobre{
     width: 95%;
     bottom: -250px;
-    height: 700px;
+    height: 620px;
     color: rgb(0, 0, 0);
     border-radius:20px ;
     box-shadow: 5px 5px 5px rgba(0.8,0.8,0.8,0.8);
@@ -202,12 +204,14 @@ button:active{
  }
 
  .conteudo-sobre img {
+    top: 5%;
+    position: relative;
     border-radius: 500%;
     margin: 15px;
     border-color: rgb(234, 133, 133);
     border-width: 5px;
     border-style:solid;
-    height: 500px; 
+    height: 400px; 
     box-shadow: 0px 0px 9px  rgb(255, 0, 0);
 
    /* min-width: 45rem;
@@ -220,7 +224,8 @@ button:active{
  
 
 .texto-sobre{
-
+    top: 5%;
+    position: relative;
     width: 980px;
     margin: 50px;
 }
@@ -230,18 +235,18 @@ button:active{
     color: whitesmoke;
     font-family: arial;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 0px;
+    font-size: 40px;
+    line-height: 10px;
     
     
 }
 .conteudo-sobre p:nth-child(2)
 {
     color: rgb(234, 133, 133);
-    font-size: 30px;
+    font-size: 20px;
     font-family: calibri;
     font-weight: none;
-    line-height: 30px;
+    line-height: 20px;
     
 }
 
@@ -249,9 +254,9 @@ button:active{
 {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: arial;
+    font-family: calibri;
     font-weight: none;
-    line-height: 25px;
+    line-height: 20px;
     
 }
 
@@ -259,9 +264,9 @@ button:active{
 {
     color: rgb(234, 133, 133);
     font-size: 20px;
-    font-family: arial;
+    font-family: calibri;
     font-weight: none;
-    line-height: 25px;
+    line-height: 20px;
     
 }
 
@@ -269,25 +274,35 @@ button:active{
 {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: arial;
+    font-family: calibri;
     font-weight: none;
-    line-height: 25px;
+    line-height: 20px;
 }
 .texto-sobre button
 {
     width: 150px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     font-family: calibri;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     outline: none;
     background-color:rgb(197, 113, 113)
 }
 
+.todasredes{
+    align-items: center;
+    height: 10px;
+    position:absolute;
+    top: -9.5%;
+    left: -16%;
+
+
+}
+
 .redes ul li a img{
     align-items: center;
-    height: 50px;
+    height: 400%;
     position:absolute;
     top: 270px;
     left: 750px;
@@ -300,7 +315,7 @@ button:active{
 .redestwo ul li a img  {
 
     align-items: center;
-    height: 50px;
+    height: 400%;
     position: absolute;
     top: 270px;
     left: 872px;
@@ -310,7 +325,7 @@ button:active{
 .redestree ul li a img  {
 
     align-items: center;
-    height: 50px;
+    height: 400%;
     position: absolute;
     top: 270px;
     left: 990px;
@@ -321,7 +336,7 @@ button:active{
 
 .qualificacoes{
 
-    height: 3800px;
+    height: 3500px;
     margin-top: 300px;
    
     background-color: rgb(0, 0, 0);
@@ -333,11 +348,12 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: rgb(197, 113, 113);
-    font-size: 70px;
+    font-size: 50px;
     line-height: 100px;
     margin-left: 430px;
     position: relative;
-   top: 150px;
+   top: 110px;
+   left: -20%;
        
 }
 
@@ -351,7 +367,7 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     line-height: 0px;
 
 }
@@ -359,21 +375,21 @@ button:active{
 .detalhes{font-family: calibri;
     font-weight: bold;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
 }
 .box1  p:nth-child(4){
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
 }
 .box1  p:nth-child(5){
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
 }
 
@@ -381,6 +397,7 @@ button:active{
 /*depois adc as outras clases*/
 
 .box1{
+    
     width: 500px;
     height: 350px;
     background-repeat: no-repeat;
@@ -399,7 +416,7 @@ button:active{
     border-color: rgb(234, 133, 133);
     border-width: 5px;
     border-style:solid;
-    height: 200px; 
+    height: 40%; 
     box-shadow: 0px 0px 20px  rgb(255, 0, 0);
     
 
@@ -414,6 +431,8 @@ button:active{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    left: 60px;
     
     
     
@@ -426,7 +445,7 @@ button:active{
     border-color: rgb(234, 133, 133);
     border-width: 5px;
     border-style:solid;
-    height: 200px; 
+    height: 140%; 
     box-shadow: 0px 0px 20px  rgb(255, 0, 0);
 }
 
@@ -435,7 +454,7 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
     
 }
@@ -444,7 +463,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
 }
 
@@ -457,6 +476,9 @@ button:active{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    left: 60px;
+    
 
 }
 
@@ -467,7 +489,7 @@ button:active{
     border-color: rgb(234, 133, 133);
     border-width: 5px;
     border-style:solid;
-    height: 200px; 
+    height: 40%; 
     box-shadow: 0px 0px 20px  rgb(255, 0, 0);
 }
 
@@ -475,7 +497,7 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
 }
 
@@ -483,7 +505,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px;
 }
 
@@ -502,6 +524,7 @@ button:active{
     
     position: relative;
     top: -250px;
+    left: 32%;
 }
 
 
@@ -532,8 +555,8 @@ button:active{
     margin-left: 0px;
     position: relative;
     bottom: none;
-    top: -200px ;
-    left: 20px;
+    top: -250px ;
+    left:34%;
     
        
 }
@@ -666,54 +689,54 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: rgb(197, 113, 113);
-    font-size: 70px;
+    font-size: 50px;
     line-height:200px;
     width: 100px;
     height: 100px;
     position:relative;
-    left: -1000px;
+    left: -700px;
     bottom: 100px;
     
 }
 
 .descricoes{
-    
+
     width: 700px;
     height: 0;
     position: absolute;
-    left: 150px;
-    bottom: -450px;
+    left: -750px;
+    bottom: -310px;
 }
 
 .texto-cargo{
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     width: 500px;
     height: 40px;
     position: relative;
-    left: -1000px;
-    bottom: 50px;
+    left: -700px;
+    bottom: 60px;
 }
 
 .texto-imobiliaria{
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     width: 600px;
     height: 40px;
     position: relative;
-    left: -1000px;
-    bottom: 50px;
+    left: -700px;
+    bottom: 75px;
 }
 
 .descricoes  p:nth-child(1){
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -721,7 +744,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -730,7 +753,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -738,7 +761,7 @@ button:active{
     font-family: monospace;
     font-weight:lighter ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -746,7 +769,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -754,7 +777,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -762,7 +785,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -770,7 +793,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -778,7 +801,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -786,7 +809,7 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
@@ -794,12 +817,13 @@ button:active{
     font-family: monospace;
     font-weight:none ;
     color: rgb(197, 113, 113);
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 0px;
 }
 .experienciafoto img {
-    top: 450px;
+    left: -5%;
+    top: 370px;
     position: relative;
     border-radius: none;
     margin: 0px;
@@ -816,8 +840,8 @@ button:active{
 .conteudo-contato{
 
     margin-top: 50px;
-    width:350%;
-    height: 400px;
+    width:330%;
+    height:400px;
     color: rgb(0, 0, 0);
     border-radius:20px ;
     box-shadow: 5px 5px 5px rgba(0.8,0.8,0.8,0.8);
@@ -831,7 +855,9 @@ button:active{
  }
 
  .texto-contato{
-
+    position: relative;
+    left: 18%;
+    top: 10%;
     width: 980px;
     margin: 100px;
 }
@@ -840,7 +866,7 @@ button:active{
     font-family: calibri;
     font-weight:bold ;
     color: rgb(255, 255, 255);
-    font-size: 70px;
+    font-size: 50px;
     line-height: 20px;
     margin-left: 0px;
     bottom: 100px;
@@ -852,7 +878,7 @@ button:active{
     font-family: calibri;
     font-weight:bold ;
     color: rgb(234, 133, 133);
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     margin-left: 0px;
     bottom: 120px;
@@ -867,9 +893,16 @@ button:active{
     font-size: 20px;
     line-height: 20px;
     margin-left: 0px;
-    bottom: 120px;
+    bottom: 100px;
     position: relative;
     
+}
+
+.totalredes1{
+    height: 50px;
+    position: relative;
+    top: -100px;
+    left: 18%;
 }
 
 .redes1 ul li a img  {
@@ -917,10 +950,10 @@ button:active{
 
 .net img {
 
-    height: 300px;
+    height: 250px;
     position: relative;
-    right: 100px;
-    top: -10px;
+    right: -10%;
+    top: 100px;
     border-width: none;
     border-style: none;
     box-shadow: none;
@@ -936,8 +969,8 @@ footer{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 100px;
-    right: 600px;
+    top: 140px;
+    right: 90%;
 
 }
 
@@ -949,12 +982,12 @@ footer p:nth-child(1){
     font-weight: bold;
     color: rgb(234, 133, 133);
     line-height: 10px;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 footer p:nth-child(2){
-font-size: 20px;
+font-size: 15px;
 color: rgb(255, 255, 255);
 width: 500px;
 text-align: center;
@@ -976,13 +1009,14 @@ text-align: center;
 .topo button
 {
     position: relative;
-    top: 10px;
+    left: 40%;
+    top: 80px;
     width: 400px;
     height: 50px;
     border-radius: 10px;
     font-family: calibri;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     outline: none;
     background-color:rgb(197, 113, 113);
     cursor: pointer;
@@ -1005,12 +1039,12 @@ text-align: center;
     font-family: calibri;
     font-weight: bold;
     color: rgb(197, 113, 113);
-    font-size: 70px;
+    font-size: 50px;
     margin-left: none;
     position: relative;
     bottom: none;
     top: -200px ;
-    left:-100px;
+    left:10%;
 
     
        
@@ -1021,12 +1055,12 @@ text-align: center;
     font-family: calibri;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 0px;
     position: relative;
     bottom: 0;
-    top: -280px ;
-    left: 130px;
+    top: -260px ;
+    left: 34%;
     right: 0px;
     
        
@@ -1038,7 +1072,7 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 100px; 
+    height: 75px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     
 
@@ -1050,7 +1084,7 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 100px; 
+    height: 75px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     
 
@@ -1062,7 +1096,7 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 100px; 
+    height: 75px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     
 
@@ -1074,13 +1108,13 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 100px; 
+    height: 70px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     position: relative;
-    top: -370px;
+    top: -335px;
     bottom: 0px;
     right: 0px;
-    left: 180px;
+    left: 10%;
     
 
 }
@@ -1090,24 +1124,26 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 100px; 
+    height: 70px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     position: relative;
-    top: -510px;
+    top: -445px;
     bottom: none;
-    left: 620px;
+    left: 77%;
     
 
 }
 
+
 .fullbox p:nth-child(1){
+    
     font-weight: bold;
     color: rgb(234, 133, 133);
     line-height: 10px;
     font-size: 30px;
     position: relative;
     right:0px;
-    left: -200px;
+    left: -50%;
     bottom:0px;
     top: 70px;
 
@@ -1115,8 +1151,8 @@ text-align: center;
 
 .linguagens{
 position: relative;
-top: 100px;
-right: 180px;
+top: 60px;
+right: 45%;
 
 }
 
@@ -1127,9 +1163,9 @@ right: 180px;
     font-size: 30px;
     position: relative;
     right:0px;
-    left: 270px;
+    left: 20%;
     bottom:0px;
-    top: -405px;
+    top: -330px;
 
 }
 
@@ -1140,7 +1176,7 @@ right: 180px;
     font-size: 30px;
     position:absolute;
     right: 0;
-    left:590px;
+    left:70%;
     bottom:none;
     top: 40px;
     
