@@ -57,18 +57,14 @@ nav{
     top: 0;
     position: fixed;
     height: 50px;
-    width: 1300px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:rgb(0, 0, 0);
     box-shadow: 2px 2px 12px rgb(24, 2, 2); 
     padding: 0px 2%;
-    z-index: 1;
-    
- 
-
-    
+    z-index: 1;    
 }
 
 nav ul {
@@ -77,24 +73,17 @@ nav ul {
 }
 
 nav ul li a{
-margin: 40px;
+margin:40px;
 font-family: monospace;
 color: rgb(197, 113, 113);
 font-size: 100%;
-font-weight: 700;
 }
 
 nav a img{
-height: 30px;
+height: 3vh;
 }
 
-.logo{
-    font-family: calibri;
-    color: rgb(197, 113, 113);
-    font-size: 30px;
-    
-    
-}
+
 
 
 
@@ -123,15 +112,16 @@ height: 30px;
     font-weight: bold;
     letter-spacing: 0px;
     color: whitesmoke;
-    font-size: 60px;
+    font-size: 400%;
 }
 
 .conteudo-texto p:nth-child(3)
 {
+
     font-family: calibri;
     color:whitesmoke;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 160%;
+    line-height: 100%;
 }
 
 .conteudo-texto {
@@ -151,20 +141,19 @@ height: 30px;
 }
 
 .conteudo-texto button{
-    width: 400px;
+    width: 30%;
     height: 40px;
     border-radius: 10px;
     font-family: calibri;
     font-weight: bold;
-    font-size: 15px;
-    outline: none;
+    font-size: 90%;
     margin: 0px 10px;
-
     background-color: rgb(197, 113, 113);
     
 }
 
-.btn1{background-color: 234, 133, 133;
+.btn1{
+    background-color: 234, 133, 133;
     cursor: pointer;
     
   
@@ -182,21 +171,21 @@ button:active{
 
  .imgbk{
     
-    height: 400px;
+    height: 10%;
     position: absolute;
-    bottom: 110px;
+    bottom: 110%;
     left: 80%;
     transform: translateX(-50%);
  }
 
  .conteudo-sobre{
     width: 95%;
-    bottom: -250px;
-    height: 620px;
+    bottom: -20%;
+    height: 100vh;
     color: rgb(0, 0, 0);
     border-radius:20px ;
     box-shadow: 5px 5px 5px rgba(0.8,0.8,0.8,0.8);
-    display: flex;
+    display:flex;
     margin: -7% auto 20px auto;
     position:relative;
     align-items: center;
@@ -235,7 +224,7 @@ button:active{
     color: whitesmoke;
     font-family: arial;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 200%;
     line-height: 10px;
     
     
@@ -243,7 +232,7 @@ button:active{
 .conteudo-sobre p:nth-child(2)
 {
     color: rgb(234, 133, 133);
-    font-size: 20px;
+    font-size: 100%;
     font-family: calibri;
     font-weight: none;
     line-height: 20px;
@@ -253,7 +242,7 @@ button:active{
 .conteudo-sobre p:nth-child(3)
 {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 100%;
     font-family: calibri;
     font-weight: none;
     line-height: 20px;
@@ -263,7 +252,7 @@ button:active{
 .conteudo-sobre p:nth-child(4)
 {
     color: rgb(234, 133, 133);
-    font-size: 20px;
+    font-size: 100%;
     font-family: calibri;
     font-weight: none;
     line-height: 20px;
@@ -273,14 +262,14 @@ button:active{
 .conteudo-sobre p:nth-child(5)
 {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 100%;
     font-family: calibri;
     font-weight: none;
     line-height: 20px;
 }
 .texto-sobre button
 {
-    width: 150px;
+    width: 20%;
     height: 40px;
     border-radius: 10px;
     font-family: calibri;
@@ -290,22 +279,28 @@ button:active{
     background-color:rgb(197, 113, 113)
 }
 
-.todasredes{
+.todasredes{/*
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;*/
+
+    justify-content: center;
     align-items: center;
     height: 10px;
-    position:absolute;
+    position:relative;
     top: -9.5%;
     left: -16%;
-
-
 }
 
 .redes ul li a img{
+    
     align-items: center;
-    height: 400%;
-    position:absolute;
+    height: 40px;
+    position:relative;
     top: 270px;
-    left: 750px;
+    left:730px;
 
     
 }
@@ -338,7 +333,6 @@ button:active{
 
     height: 3500px;
     margin-top: 300px;
-   
     background-color: rgb(0, 0, 0);
 
 }
@@ -352,7 +346,7 @@ button:active{
     line-height: 100px;
     margin-left: 430px;
     position: relative;
-   top: 110px;
+   top: 10rem;
    left: -20%;
        
 }
@@ -398,7 +392,7 @@ button:active{
 
 .box1{
     
-    width: 500px;
+    width: 30%;
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,7 +417,7 @@ button:active{
 }
 
 .box2{
-    width: 500px;
+    width: 25%;
     height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -432,7 +426,7 @@ button:active{
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 60px;
+    
     
     
     
@@ -468,7 +462,7 @@ button:active{
 }
 
 .box3{
-    width: 500px;
+    width: 30%;
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -477,7 +471,7 @@ button:active{
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 60px;
+  
     
 
 }
@@ -515,7 +509,7 @@ button:active{
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    top: 150px;
+    top: 200px;
     position: relative;
 }
 
@@ -529,7 +523,7 @@ button:active{
 
 
 .cursos-textos{
-    width: 5px;
+    width: 5%;
     height: 50px;
     margin: 5px 0px 0px 9px;
 }
@@ -556,7 +550,7 @@ button:active{
     position: relative;
     bottom: none;
     top: -250px ;
-    left:34%;
+    left:27%;
     
        
 }
@@ -578,8 +572,8 @@ button:active{
 }
 .boxcurso1{
 
-    width: 500px;
-    height: 330px;
+    width:90%;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2 px 2 px 2 12px rgba(255, 255, 255, 0.3);
@@ -616,8 +610,8 @@ button:active{
     line-height: 0px;
 }
 .boxcurso2{
-    width: 500px;
-    height: 330px;
+    width: 90%;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2 px 2 px 2 12px rgba(255, 255, 255, 0.3);
@@ -657,8 +651,8 @@ button:active{
     line-height: 0px;
 }
 .boxcurso3{
-    width: 500px;
-    height: 350px;
+    width: 90%;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2 px 2 px 2 12px rgba(255, 255, 255, 0.3);
@@ -694,7 +688,7 @@ button:active{
     width: 100px;
     height: 100px;
     position:relative;
-    left: -700px;
+    left: -760px;
     bottom: 100px;
     
 }
@@ -704,7 +698,7 @@ button:active{
     width: 700px;
     height: 0;
     position: absolute;
-    left: -750px;
+    left: -810px;
     bottom: -310px;
 }
 
@@ -713,10 +707,10 @@ button:active{
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-size: 15px;
-    width: 500px;
+    width: 90%;
     height: 40px;
     position: relative;
-    left: -700px;
+    left: -160%;
     bottom: 60px;
 }
 
@@ -725,13 +719,12 @@ button:active{
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-size: 15px;
-    width: 600px;
+    width: 90%;
     height: 40px;
     position: relative;
-    left: -700px;
+    left: -760px;
     bottom: 75px;
 }
-
 .descricoes  p:nth-child(1){
     font-family: monospace;
     font-weight:none ;
@@ -740,6 +733,7 @@ button:active{
     line-height: 20px;
     margin-left: 0px;
 }
+
 .descricoes  p:nth-child(2){
     font-family: monospace;
     font-weight:none ;
@@ -822,7 +816,7 @@ button:active{
     margin-left: 0px;
 }
 .experienciafoto img {
-    left: -5%;
+    left: -20%;
     top: 370px;
     position: relative;
     border-radius: none;
@@ -839,8 +833,8 @@ button:active{
 
 .conteudo-contato{
 
-    margin-top: 50px;
-    width:330%;
+    margin-top: 5px;
+    width:350%;
     height:400px;
     color: rgb(0, 0, 0);
     border-radius:20px ;
@@ -849,16 +843,16 @@ button:active{
     position:relative;
     align-items: center;
     top: 400px;
-    right: 600px;
+    right:120%;
  
     
  }
 
  .texto-contato{
     position: relative;
-    left: 18%;
-    top: 10%;
-    width: 980px;
+    left: 3%;
+    top: 1%;
+    width: 60%;
     margin: 100px;
 }
 
@@ -886,6 +880,7 @@ button:active{
     
 }
 
+
 .texto-contato  p:nth-child(3){
     font-family: calibri;
     font-weight:bold ;
@@ -907,11 +902,11 @@ button:active{
 
 .redes1 ul li a img  {
     
-    height: 70px;
-    position: relative;
+    align-items: center;
+    height: 150%;
+    position: absolute;
     top: 200px;
-    left: -1130px;
-    border: 0;
+    left: -2750%; 
     border-width: none;
     border-style: none;
     box-shadow: none;
@@ -921,25 +916,24 @@ button:active{
 
 .redes2 ul li a img  {
     
-    height: 70px;
-    position: relative;
-    top: 100px;
-    left: -1000px;
-    border: 0;
+    align-items: center;
+    height: 150%;
+    position: absolute;
+    top: 200px;
+    left: -2450%; 
     border-width: none;
     border-style: none;
     box-shadow: none;
     box-sizing: none;
-    text-shadow: none;  
+    text-shadow: none;
 }
 
 .redes3 ul li a img  {
-    
-    height: 70px;
-    position: relative;
-    top: 0px;
-    left: -880px;
-    border: 0;
+    align-items: center;
+    height: 150%;
+    position: absolute;
+    top: 200px;
+    left: -2150%; 
     border-width: none;
     border-style: none;
     box-shadow: none;
@@ -970,7 +964,7 @@ footer{
     align-items: center;
     position: relative;
     top: 140px;
-    right: 90%;
+    right: 135%;
 
 }
 
@@ -989,7 +983,7 @@ footer p:nth-child(1){
 footer p:nth-child(2){
 font-size: 15px;
 color: rgb(255, 255, 255);
-width: 500px;
+width: 300px;
 text-align: center;
 }
 
@@ -1069,7 +1063,7 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 75px; 
+    height:7vh; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     
 
@@ -1081,7 +1075,7 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 75px; 
+    height: 8vh; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     
 
@@ -1093,7 +1087,7 @@ text-align: center;
     border-color: rgb(234, 133, 133);
     border-width: 0px;
     border-style:solid;
-    height: 75px; 
+    height: 7vh; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     
 
@@ -1108,7 +1102,7 @@ text-align: center;
     height: 70px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     position: relative;
-    top: -335px;
+    top: -265px;
     bottom: 0px;
     right: 0px;
     left: 10%;
@@ -1124,7 +1118,7 @@ text-align: center;
     height: 70px; 
     box-shadow: 0px 0px 0px  rgb(255, 0, 0);
     position: relative;
-    top: -445px;
+    top: -370px;
     bottom: none;
     left: 77%;
     
@@ -1162,7 +1156,7 @@ right: 45%;
     right:0px;
     left: 20%;
     bottom:0px;
-    top: -330px;
+    top: -250px;
 
 }
 
@@ -1179,6 +1173,7 @@ right: 45%;
 }
 
 @media screen and (max-width: 600px){
+    
     nav{
         width: 97%;
        
@@ -1191,21 +1186,20 @@ right: 45%;
 
 body{
     background-color:rgb(12, 11, 11) ;
-    margin:0;
-    padding: none;
     background-image: url("img/bk.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 100% 100%;
     width:100%;
     height: 100vh;
 }
 
 .todasredes{
-    align-items: center;
+    width:100% ;
     height: 10px;
-    position:absolute;
-    top: -15%;
-    left: -178%;
+    position:relative;
+    top: -10%;
+    left: -165%;
+    align-items: center;
     
 }
 
@@ -1213,7 +1207,7 @@ body{
     
     position: absolute;
     left: -5%;
-    top: -35%;
+    top: -25%;
    transform: translate(2.5%, 155%); 
 
 
@@ -1250,9 +1244,8 @@ body{
 }
 
 .conteudo-sobre img {
-    top:-60%;
-    left: 15%;
-    
+    top:-45%;
+    left: 17%;
     position: relative;
     border-radius: 500%;
     margin: 15px;
@@ -1264,17 +1257,17 @@ body{
 
 }
 .conteudo-sobre{
-    height: 130%;
+    height: 160%;
 
 
 }
 
 .texto-sobre{
-    top: -3%;
+    top: 5%;
     position: relative;
     width: 200%;
     margin: 0;
-    left:-62%;
+    left:-55%;
 }
 
 .conteudo-sobre p:nth-child(1)
@@ -1284,7 +1277,11 @@ body{
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
-    width: 300%;
+    width: 230%;
+
+    left: -5%;
+    position: relative;
+  
     
     
 }
