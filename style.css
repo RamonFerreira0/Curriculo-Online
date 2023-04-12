@@ -1198,9 +1198,8 @@ body{
     height: 10px;
     position:relative;
     top: -10%;
-    left: -165%;
-    align-items: center;
-    
+    left: -43rem;
+   
 }
 
 .conteudo-texto{
@@ -1367,12 +1366,15 @@ body{
     margin-right: 50px;
     top: 150px;
     position: relative;
+    left: 20%;
+    
 }
 .box1{
     
    
     position: relative;
     left: -35%;
+    width: 120%;
     
 }
 
@@ -1381,6 +1383,7 @@ body{
    
     position: relative;
     left: -35%;
+    width: 120%;
     
 }
 .box3{
@@ -1388,6 +1391,7 @@ body{
    top: 250px;
     position: relative;
     left: -35%;    
+    width: 120%;
 }
 
 .experiencias-titulo{
@@ -1397,11 +1401,11 @@ body{
     width: 100px;
     height: 100px;
     position:relative;
-    left: 20%;
+    left: -2%;
     bottom: 100px;
 }
 .experienciafoto img {
-    left:25%;
+    left:10%;
     top: 200px;
     position: relative;
     height: 150px; 
@@ -1410,7 +1414,7 @@ body{
 
 .descricoes{
 position: relative;
-left: 25%;
+left: 3%;
 top: 5%;
 width: 300px;
 
@@ -1421,13 +1425,13 @@ width: 300px;
     font-size: 30px;
     position: relative;
     top: 20%;
-    left:125%;     
+    left:175%;     
 }
 
 .fullbox{
 
     position: relative;
-    left: 100%;
+    left: 155%;
     top: 100%;
 }
 
@@ -1458,17 +1462,17 @@ width: 300px;
     font-size: 30px;
     position: relative;
     right:0px;
-    left: 87%;
+    left: 37%;
     bottom:0px;
-    top: -900px;
+    top: -800px;
 
 }
 
 .linguagens{
     position: relative;
     top: -860px;
-   left: 95%;
-   top: -910px;
+   left: 45%;
+   top: -810px;
 
 }
 .fullbox1 p:nth-child(1){
@@ -1476,16 +1480,16 @@ width: 300px;
     font-size: 30px;
     position: relative;
     right:0px;
-    left: 63%;
+    left: 10%;
     bottom:0px;
-    top: -850px;
+    top: -750px;
 
 }
 
 .ide{
     position: relative;
-   left: 77%;
-   top: -530px;
+   left: 22%;
+   top: -480px;
 
 }
 
@@ -1494,9 +1498,9 @@ width: 300px;
     font-size: 30px;
     position: relative;
     right:0px;
-    left: 63%;
+    left: 10%;
     bottom:0px;
-    top: -830px;
+    top: -730px;
 
 }
 
@@ -1509,23 +1513,23 @@ width: 300px;
 
 .ps{
     position: relative;
-   left: 19%;
-   top: -400px;
+   left: -33%;
+   top: -360px;
 }
 .texto-contato{
     text-align: center;
     position: relative;
-    left: 70%;
+    left: 63%;
     top: 110%;
     width: 350px;
     margin: 100px;
 }
 .totalredes1{
     
-    height: 200px;
+    height: 50px;
     position:relative;
-    top: 530px;
-    left: 1790px;
+    top: 460px;
+    left: 1490px;
 
 
 }
@@ -1544,7 +1548,7 @@ footer p:nth-child(1){
     line-height: 10px;
     font-size: 10px;
     position: relative;
-    left: 90%;
+    left: 135%;
     top: 300%;
 
 }
